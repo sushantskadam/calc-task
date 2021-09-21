@@ -1,0 +1,110 @@
+<html>
+  <head>
+   <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="row mt-5">
+      <div class="col-md-12 d-flex justify-content-center">
+        <form name="Cal">
+          <div class="row ">
+            <div class="col-md-12 p-0">
+              <div class="form-group">
+                <div id="result">
+                    <div id="history">
+                        <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                        <p id="output-value"></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="1">1</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="2">2</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="3">3</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="4">4</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="5">5</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="6">6</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="7">7</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="8">8</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="9">9</button>	
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary operator" id="+">+</button>	
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary number" id="0">0</button>	
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary operator" id="-">-</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary operator" id="/">/</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-primary operator" id="*">*</button>
+            </div>
+            <div class="col-xs-4">
+                <button type="button" class="btn btn-primary operator" id="**">^</button>
+              </div>
+          </div>
+          <div class="row">
+            
+              <div class="col-xs-4">
+                <button type="button" class="btn btn-info operator" id="backspace">⟵</button>
+              </div>  
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-success operator" id="=">=</button>
+            </div>
+            <div class="col-xs-4">
+              <button type="button" class="btn btn-danger operator" id="clear">CE</button>
+            </div>
+            
+          </div>
+        </form>
+        <div class="histo" >
+            <h5>History</h5>
+             <div id="hist" >
+        </div>
+        
+            
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
